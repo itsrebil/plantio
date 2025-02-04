@@ -3,7 +3,7 @@
     background: #00000076;
     position: absolute;
     color: aliceblue;
-    top: 100px;
+    top: 210px;
     display: flex;
     width: 100vw;
     justify-content: space-evenly;
@@ -16,6 +16,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 
 }

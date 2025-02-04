@@ -1,0 +1,56 @@
+
+.notificationBar{
+
+    background: #e0e0e0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 100vw;
+
+}
+.headerTop{
+
+    background-color: #5fba51;
+    height: 55px;
+    
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+
+
+}
+
+.logoImg{
+    height: 45px;
+}
+
+.menuBtn{
+    color: #262626;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.rigtNav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cartCounter{
+    position: relative;
+    top: -10px;
+    left: -17px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    
+}

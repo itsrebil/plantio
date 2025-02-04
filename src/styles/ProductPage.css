@@ -1,0 +1,69 @@
+
+.headingProd{
+    max-width: 100vw;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cardContainer{
+    max-width: 100vw;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.plantCard{
+    height: 420px;
+    width: 250px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    background-color: rgb(227, 227, 227);
+
+}
+
+.plantImg{
+    width: 250px;
+    height: 280px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.plantContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 7px;
+
+}
+
+.plantContentHeading{
+    font-size: large;
+    color: black;
+    font-weight: bold ;
+}
+
+.plantContentPrice{
+    font-size: larger;
+    color: black;
+    font-weight: 400;
+
+}
+
+.addToCartBtn{
+
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: #5fba51;
+    cursor: pointer;
+
+}
