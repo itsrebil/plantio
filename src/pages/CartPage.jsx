@@ -1,6 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateQuantity, removeFromCart } from '../features/cartSlice';
+import Header from '../components/Header';
+
 
 function CartPage() {
   const dispatch = useDispatch();
@@ -9,6 +11,8 @@ function CartPage() {
   const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
   return (
+    <>        <Header />
+    
     <div>
       <h1>Shopping Cart</h1>
       {cart.map((item) => (
@@ -26,6 +30,8 @@ function CartPage() {
       <button>Continue Shopping</button>
       <button>Checkout</button>
     </div>
+    </>
+
   );
 }
 

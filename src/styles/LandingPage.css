@@ -1,0 +1,21 @@
+
+.bgContent {
+    background: #00000076;
+    position: absolute;
+    color: aliceblue;
+    top: 100px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    
+}
+
+.leftContainer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
