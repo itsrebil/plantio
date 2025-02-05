@@ -14,7 +14,7 @@ function Header() {
   return (
     <>
     <div className='notificationBar'>
-      20% SALE ENDS IN 2 DAYS. Hurry up !!!
+      Make Your Home Green.
     </div>
   
     <header className='headerTop'>

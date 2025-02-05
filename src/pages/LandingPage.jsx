@@ -25,6 +25,7 @@ const LandingPage = () => {
     >
       
     </div>
+    <div className='topcontainer'>
     <div className='bgContent'>
       <div className='leftContainer'>
       <h1 style={{ fontSize: '4rem', marginBottom: '0', textAlign: 'center', lineHeight: '80px' }}>Welcome to <br></br> Plantio</h1>
@@ -62,6 +63,8 @@ const LandingPage = () => {
      
       
     </div>
+    </div>
+    
     </>
   );
 };

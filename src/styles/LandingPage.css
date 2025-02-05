@@ -1,11 +1,23 @@
 
+
+.topcontainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
 .bgContent {
     background: #00000076;
-    position: absolute;
+    
     color: aliceblue;
-    top: 210px;
     display: flex;
     width: 100vw;
+    height: max-content;
     justify-content: space-evenly;
     
 }
