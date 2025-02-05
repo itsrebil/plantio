@@ -46,8 +46,10 @@
 
 .cartCounter{
     position: relative;
+    
     top: -10px;
     left: -17px;
+    text-align: center;
     color: white;
     font-weight: bolder;
     font-size: 18px;
